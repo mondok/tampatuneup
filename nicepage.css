@@ -43271,7 +43271,17 @@ a.u-link.u-text-hover-grey-90:hover {
     max-height: 63px;
   }
 }
+@media (max-width: 991px) {
+  .u-header .u-sheet-1 {
+    min-height: 81px;
+  }
 
+  .u-header .u-image-1 {
+    height: 57px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+}
 @media (max-width: 767px) {
   .u-header .u-image-1 {
     width: auto;
